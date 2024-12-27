@@ -21,7 +21,10 @@
     <ClCompile Include="20241227_2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="20141227_3.c">
+    <ClCompile Include="20241227_3.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="20241227_4.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
