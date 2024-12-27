@@ -18,7 +18,7 @@ main() {
 	printf("컴퓨터 > %d\n", com);
 
 	// 반복문 시작
-	if (me == com) {
+	/*if (me == com) {
 		printf("당신은 비겼습니다 ♡");
 	}
 	else if ((me == 1 && com == 2) ||
@@ -35,6 +35,53 @@ main() {
 	}
 	else {
 		printf("잘못된 입력입니다.");
+	}*/
+
+	// 강사님 답변
+	if (me == 1) {
+		printf("사람 : 가위\n");
+		if (com == 1) {
+			printf("컴퓨터 : 가위\n");
+			printf("당신은 비겼습니다.\n");
+		}
+		else if (com == 2) {
+			printf("컴퓨터 : 바위\n");
+			printf("당신은 졌습니다.\n");
+		}
+		else {
+			printf("컴퓨터 : 보\n");
+			printf("당신은 이겼습니다.\n");
+		}
+	}
+	else if (me == 2) {
+		printf("사람 : 바위\n");
+		if (com == 1) {
+			printf("컴퓨터 : 가위\n");
+			printf("당신은 이겼습니다.\n");
+		}
+		else if (com == 2) {
+			printf("컴퓨터 : 바위\n");
+			printf("당신은 비겼습니다.\n");
+		}
+		else {
+			printf("컴퓨터 : 보\n");
+			printf("당신은 졌습니다.\n");
+		}
+	}
+	else {
+		printf("사람 : 보\n");
+		if (com == 1) {
+			printf("컴퓨터 : 가위\n");
+			printf("당신은 졌습니다.\n");
+		}
+		else if (com == 2) {
+			printf("컴퓨터 : 바위\n");
+			printf("당신은 이겼습니다.\n");
+		}
+		else {
+			printf("컴퓨터 : 보\n");
+			printf("당신은 비겼습니다.\n");
+		}
 	}
 
 
