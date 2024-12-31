@@ -5,7 +5,7 @@
 main() {
 	int com, me;
 
-	// 난수의 초기화ㄴ
+	// 난수의 초기화
 	srand(time(NULL));
 	com = ( rand() % 3 ) + 1; // 1~3
 
